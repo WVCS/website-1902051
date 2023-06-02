@@ -1,3 +1,50 @@
-body {
+body{
+  background-color: orange;
+    text-align: center;
 
+}
+
+nav {
+  list-style-type:none;
+  background-color: teal;
+width:100px
+height:25px;
+position:fixed;
+top:0
+left:0;
+  padding: 9px;
+}
+
+li{
+  display:inline;
+  padding:15px;
+ 
+}
+li:hover{
+  background-color:red;
+  
+}
+
+h1{
+  color: red;
+  text-allign: center
+    
+    
+}
+img{
+  
+  left: 0px;
+  width 40%;
+  border: dashed pink 3px
+}
+img:hover{
+  
+  width:550px;
+  border:solid black 3px;
+  
+}
+img:click{
+  
+  width 150px;
+  border dashed white 9px;
 }
